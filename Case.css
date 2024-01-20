@@ -28,7 +28,7 @@ body {
     z-index: 1; /* Ensure it's above the first image */
   }
 
-  .margin p {
+  #contactUs {
   position: absolute; /* Position the text over the image */
   top: 15%; /* Center vertically */
   left: 15%; /* Center horizontally */
@@ -46,9 +46,9 @@ body {
   display: flex;
 }
 
-.margin p2 {
+#aboutUs {
   position: absolute; /* Position the text over the image */
-  top: 20%; /* Center vertically */
+  top: 15%; /* Center vertically */
   left: 85%; /* Center horizontally */
   transform: translate(-50%, -50%); /* Adjust for centering */
   color: #FDFDFD;
@@ -89,9 +89,9 @@ body {
   z-index: 2; /* Ensure it's above the logo */
 }
 
-.margin p4{
+#getStarted{
   position: absolute; /* Position the text over the image */
-  top: 85%; /* Center vertically */
+  top: 87%; /* Center vertically */
   left: 50%; /* Center horizontally */
   transform: translate(-50%, -50%); /* Adjust for centering */
   color: #FDFDFD;
@@ -112,3 +112,110 @@ body {
 }
 
 /* PAGE2 */
+.register {
+    margin: 0; /* Remove default margin */
+}
+
+.register {
+  position: relative; /* Position the container */
+  width: 100vw; /* 100% of viewport width */
+  height: 100vh; /* 100% of viewport height */
+}
+
+.register img {
+  width: 100%; /* Fill the container */
+  height: 100%; /* Fill the container */
+  object-fit: cover; /* Cover the entire area, maintain aspect ratio */
+}
+
+.register img.logo {
+  position: absolute; /* Position the logo absolutely within the container */
+  top: 0px; /* Adjust position as needed */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Adjust for centering */
+  object-fit: cover; /* Fill the available space within the padding */
+  width: 20%; /* Take up the full width of the padding */
+  height: 20%; /* Take up the full height of the padding */
+  padding: 40px 40px; /* Maintain the padding size */
+  border-radius: 180px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+  z-index: 1; /* Ensure it's above the first image */
+}
+
+.register p {
+  position: absolute; /* Position the text over the image */
+  top: 25%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for centering */
+  color: #FDFDFD;
+  text-align: center;
+  font-size: 55px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  white-space: nowrap; /* Prevent text wrapping */
+  overflow: hidden; /* Hide any overflow */
+  text-overflow: ellipsis; /* Add ellipsis if text is too long */
+}
+
+.register p2 {
+  position: absolute; /* Position the text over the image */
+  top:47%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for centering */
+  color: #DDFFF7;
+  text-align: center;
+  font-style: italic;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  width: 100%;
+  max-width: 900px; /* optional: set a maximum width for readability */
+  margin: 0 auto; /* optional: center the container */
+}
+
+.register p3{
+  position: absolute; /* Position the text over the image */
+  top: 60%; /* Center vertically */
+  left: 29%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for centering */
+  color: #FDFDFD;
+  text-align: center;
+  font-size: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  white-space: nowrap; /* Prevent text wrapping */
+  overflow: hidden; /* Hide any overflow */
+  text-overflow: ellipsis; /* Add ellipsis if text is too long */
+}
+
+.register pDate {
+  position: absolute; /* Position the text over the image */
+  top: 67%; /* Center vertically */
+  left: 16%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for centering */
+  color: #FF2D2D;
+  text-align: center;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  white-space: nowrap; /* Prevent text wrapping */
+  overflow: hidden; /* Hide any overflow */
+  text-overflow: ellipsis; /* Add ellipsis if text is too long */
+}
+
+#myTextbox {
+  position: absolute;
+  top: 69%; /* Center vertically */
+  left: 13%; /* Center horizontally */
+  padding: 10px; /* Add padding for better readability */
+  width: 73%; /* Take up the full width of the padding */
+  height: 4%; /* Take up the full height of the padding */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 5px; /* Make the corners rounded */
+  font-size: 16px; /* Set font size */
+  margin-bottom: 10px; /* Add some space below the textbox */
+  z-index: 1;
+}
