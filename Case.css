@@ -1,0 +1,111 @@
+body {
+    margin: 0; /* Remove default margin */
+    overflow: hidden; /* Hide scrollbars */
+  }
+
+  .margin {
+    position: relative; /* Position the container */
+    width: 100vw; /* 100% of viewport width */
+    height: 100vh; /* 100% of viewport height */
+  }
+
+  .margin img {
+    width: 100%; /* Fill the container */
+    height: 100%; /* Fill the container */
+    object-fit: cover; /* Cover the entire area, maintain aspect ratio */
+  }
+
+  .margin img.logo {
+    position: absolute; /* Position the logo absolutely within the container */
+    top: 40px; /* Adjust position as needed */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for centering */
+    width: 350px;
+    height: 350px;
+    border-radius: 175px;
+    object-fit: initial;
+    z-index: 1; /* Ensure it's above the first image */
+  }
+
+  .margin p {
+  position: absolute; /* Position the text over the image */
+  top: 15%; /* Center vertically */
+  left: 15%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for centering */
+  color: #FDFDFD;
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  word-wrap: break-word;
+  padding: 8px 16px; /* Combined padding shorthand */
+  background: #0B80C2;
+  border-radius: 30px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.margin p2 {
+  position: absolute; /* Position the text over the image */
+  top: 20%; /* Center vertically */
+  left: 85%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for centering */
+  color: #FDFDFD;
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  word-wrap: break-word;
+  padding: 8px 16px; /* Combined padding shorthand */
+  background: #0B80C2;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.margin p3 {
+  position: absolute; /* Position the text over the image */
+  top: 65%; /* Adjust position as needed */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for centering */
+  color: #0D6697;
+  text-align: center;
+  font-style: italic;
+  font-size: 60px;
+  font-family: Inter;
+  font-weight: 800;
+  word-wrap: break-word;
+  overflow: hidden;
+  padding: 10px 15px; /* Combined padding shorthand */
+  background: white;
+  border-radius: 108px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  gap: 10px;
+  display: inline-flex;
+  z-index: 2; /* Ensure it's above the logo */
+}
+
+.margin p4{
+  position: absolute; /* Position the text over the image */
+  top: 85%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for centering */
+  color: #FDFDFD;
+  text-align: center;
+  font-size: 55px;
+  font-family: Inter;
+  font-weight: 700;
+  word-wrap: break-word;
+  overflow: hidden;
+  padding: 10px 40px; /* Combined padding shorthand */
+  background: #0B80C2;
+  border-radius: 108px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+
+}
